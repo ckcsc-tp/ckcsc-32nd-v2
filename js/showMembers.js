@@ -16,7 +16,7 @@ function showMember(n){
 				</div>
 			</div>
 		</div>`;
-	$.getJSON('../json/members.json', data => {
+	$.getJSON('./json/members.json', data => {
 		let to = $('#memberCollaspe');
 		for(let i = 1; i <= n; i++){
 			let name = data[i].name;
