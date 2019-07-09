@@ -1,2 +1,9 @@
-.member-icon {
+#members .card-img {
+	width: 100px;
+	height: 100px;
+}
+
+.card-header {
+	border-top: 3;
+	border-bottom: 0;
 }
