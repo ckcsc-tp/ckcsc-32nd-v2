@@ -7,3 +7,15 @@
 	border-top: 3;
 	border-bottom: 0;
 }
+
+.col-md-4 img {
+	margin: 20px;
+}
+
+.memberCard {
+	border-radius: 10px;
+}
+
+.memberImg {
+	border-radius: 10px;
+}
